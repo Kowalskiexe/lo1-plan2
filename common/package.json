@@ -1,0 +1,31 @@
+{
+  "name": "lo1-plan2-common",
+  "version": "0.1.0",
+  "description": "School schedule for 1 LO Lublin",
+  "scripts": {
+    "watch": "npx tsc -w",
+    "build": "npx tsc",
+    "clean": "rm -r dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kowalskiexe/lo1-plan2.git"
+  },
+  "author": "Maciej Kowalski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kowalskiexe/lo1-plan2/issues"
+  },
+  "homepage": "https://github.com/Kowalskiexe/lo1-plan2#readme",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  },
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts",
+    "dist/lib"
+  ],
+  "type": "module"
+}

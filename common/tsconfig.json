@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "declaration": true,
+        "module": "ES6",
+        "noImplicitAny": true
+    },
+    "include": [
+        "lib/**/*.ts",
+        "index.ts"
+    ]
+}

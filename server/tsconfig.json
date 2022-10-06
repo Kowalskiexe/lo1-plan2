@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "rootDir": "src/ts",
+        "outDir": "build/js",
+        "strict": true,
+        "module": "ES6",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "exactOptionalPropertyTypes": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "moduleResolution": "Node",
+        "allowSyntheticDefaultImports": true
+    },
+    "include": ["src/ts/**/*"]
+}
